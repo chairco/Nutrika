@@ -1,8 +1,8 @@
 import json
 import os
 from django.core.management.base import BaseCommand
-from .api.models import Nutrition
-from .fda.settings import BASE_DIR
+from api.models import Nutrition
+from fda.settings import BASE_DIR
 
 
 class Command(BaseCommand):
